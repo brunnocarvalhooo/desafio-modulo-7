@@ -37,9 +37,9 @@ class RaioX(Verification):
 class AprovaExame:
     def aprovar_solicitacao_exame(self, exame: Verification):
         if exame.verifica_condicoes():
-            print(f"{type(exame).__name__} aprovado!")
+            print(f"Exame de {type(exame).__name__} aprovado!")
         else:
-            print(f"{type(exame).__name__} reprovado!")
+            print(f"Exame de {type(exame).__name__} reprovado!")
 
 
 # Exemplo de uso:
